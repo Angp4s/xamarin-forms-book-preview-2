@@ -94,7 +94,8 @@ namespace ClassHierarchy
                 if (typeInformation.IsDerivedDirectlyFrom(parentClass.Type))
                 {
                     ClassAndSubclasses subClass = 
-                        new ClassAndSubclasses(typeInformation.Type, typeInformation.IsXamarinForms);
+                        new ClassAndSubclasses(typeInformation.Type, 
+                                               typeInformation.IsXamarinForms);
                     parentClass.Subclasses.Add(subClass);
                     AddChildrenToParent(subClass, classList);
                 }
