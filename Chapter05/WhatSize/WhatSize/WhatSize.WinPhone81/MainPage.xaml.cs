@@ -26,9 +26,9 @@ namespace WhatSize.WinPhone81
         {
             this.InitializeComponent();
 
-            LoadApplication(new WhatSize.App());
-
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+            LoadApplication(new WhatSize.App());
         }
 
         /// <summary>
