@@ -16,7 +16,7 @@ namespace PropertySettings
             label1.Text = "Text with CLR properties";
             label1.IsVisible = true;
             label1.Opacity = 0.75;
-            label1.XAlign = TextAlignment.Center;
+            label1.HorizontalTextAlignment = TextAlignment.Center;
             label1.VerticalOptions = LayoutOptions.CenterAndExpand;
             label1.TextColor = Color.Blue;
             label1.BackgroundColor = Color.FromRgb(255, 128, 128);
@@ -27,7 +27,7 @@ namespace PropertySettings
             label2.SetValue(Label.TextProperty, "Text with bindable properties");
             label2.SetValue(Label.IsVisibleProperty, true);
             label2.SetValue(Label.OpacityProperty, 0.75);
-            label2.SetValue(Label.XAlignProperty, TextAlignment.Center);
+            label2.SetValue(Label.HorizontalTextAlignmentProperty, TextAlignment.Center);
             label2.SetValue(Label.VerticalOptionsProperty, LayoutOptions.CenterAndExpand);
             label2.SetValue(Label.TextColorProperty, Color.Blue);
             label2.SetValue(Label.BackgroundColorProperty, Color.FromRgb(255, 128, 128));

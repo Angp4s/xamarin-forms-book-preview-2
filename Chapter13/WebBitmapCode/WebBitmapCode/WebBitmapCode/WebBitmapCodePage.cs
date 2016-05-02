@@ -1,11 +1,4 @@
 ﻿using System;
-
-
-using System.IO;
-using System.Net;
-
-
-
 using Xamarin.Forms;
 
 namespace WebBitmapCode
@@ -14,7 +7,7 @@ namespace WebBitmapCode
     {
         public WebBitmapCodePage()
         {
-            string uri = "http://developer.xamarin.com/demo/IMG_1415.JPG";
+            string uri = "https://developer.xamarin.com/demo/IMG_1415.JPG";
 
             Content = new Image
             {
